@@ -1,5 +1,7 @@
 # Convolutional Neural Network
 
+# Installs - These are only necessary if you don't already have them
+
 # Installing Theano
 # pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
 
@@ -8,6 +10,9 @@
 
 # Installing Keras
 # pip install --upgrade keras
+
+# Installing Keras in IBM Cognitive Labs
+# !pip install --upgrade keras
 
 # Part 1 - Building the CNN
 
