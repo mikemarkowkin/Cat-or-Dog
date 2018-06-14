@@ -69,6 +69,6 @@ test_set = test_datagen.flow_from_directory('/resources/data/Dog_vs_Cat/Test_Set
 
 classifier.fit_generator(training_set,
                          steps_per_epoch = 800,
-                         epochs = 2,
+                         epochs = 5,
                          validation_data = test_set,
-                         validation_steps = 20)
+                         validation_steps = 50)
